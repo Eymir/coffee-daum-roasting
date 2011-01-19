@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="coffee.daum"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".MakeRecipe"
+			      android:label="로스팅 레시피 만들기">
+		</activity>
+		<activity android:name=".RoastingTimer"
+			      android:label="로스팅 타이머">
+		</activity>
+		<activity android:name=".ViewRecipeText"
+			      android:label="나의 로스팅 레시피">
+		</activity>
+		<activity android:name=".ViewRecipeImage"
+			      android:label="나의 로스팅 레시피">
+		</activity>
+		<activity android:name=".EditingRecipe"
+			 	  android:label="레시피 타이머">
+		</activity>
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest> 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    >
+    <Button
+    android:id="@+id/makebtn"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:text="로스팅 레시피 만들기"/>
+    <Button
+    android:id="@+id/textbtn"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:text="로스팅 레시피 보기(text)"/>
+    <Button
+    android:id="@+id/viewbtn"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:text="로스팅 레시피 보기(image)"/>
+    
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">CoffeeDaumRoasting</string>
+    <string name="nyun">년</string>
+    <string name="wol">월</string>
+    <string name="il">일</string>
+    <string name="sigan">시간</string>
+    <string name="subssi">℃</string>
+    <string name="ondo">온도</string>
+    <string name="damper">댐퍼</string>
+    <string name="hwaryuk">화력</string>
+</resources>
